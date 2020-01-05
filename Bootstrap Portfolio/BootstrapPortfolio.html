@@ -4,6 +4,7 @@
         <meta charset ="UTF-8">
         <title>Portfolio</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
@@ -13,53 +14,68 @@
             <!-- header tag -->
             <div class="header">
                 <header>
-                    <h1>Collin Kier</h1>
+
+                    <nav class="navbar sticky-top navbar-dark bg-primary">
+                        <a class="navbar-brand" href="#!"><h1>Collin Kier</h1></a>
+               
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Learn More
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <button class="dropdown-item" type="button"><a id="about" href= "BootstrapIndex.html">About Me</a></button>
+                            <button class="dropdown-item" type="button"><a id="about" href= "BootstrapPortfolio.html">Portfolio</a></button>
+                            <button class="dropdown-item" type="button"><a id="about" href= "BootstrapContact.html">Contact</a></button>
+                            </div>
+                        </div>
+        
+                    </nav>
                 </header>
-                <nav>
-                    <a id="about" href="index.html">About</a>
-                    <a href="portfolio.html">Portfolio</a>
-                    <a href="contact.html">Contact</a>
-    
-                </nav>
             </div>
             <main>
-                <div class="firstBlockP">
-    
-                    <br>
-    
-                    <h2>Portfolio</h2>
-    
-                    <div class="row">
-                        <div class="column">
-                          <img class="pimages" src="Assets/Images/forest.jpg">
-                          <p class="pPics">Hiking</p>
-                        </div>
-                        <div class="column2">
-                            <img class="pimages" src="Assets/Images/mountain.jpg">
-                            <p class="pPics">From Washington State</p>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="row2">
-                        <div class="column">
-                            <img class="pimages" src="Assets/Images/lake.jpg">
-                            <p class="pPics">Fishing</p>
+                <div class="contact">
+                    
+                    <div class="firstBlockP">
+        
+                        <br>
+        
+                        <h2>Portfolio</h2>
+        
+                        <div class="row1">
+                            
+                            <div class="column">
+                                <img class="pimages" src="Assets/Images/forest.jpg">
+                                <button type="button" class="btn btn-primary">Primary</button>
+                            </div>
+                            <div class="column2">
+                                <img class="pimages" src="Assets/Images/mountain.jpg">
+                                <button type="button" class="btn btn-primary">Primary</button>
+                            </div>
                         </div>
                         <br>
-                        <div class="column2">
-                            <img class="pimages" src="Assets/Images/camping.jpg">
-                            <p class="pPics">Camping</p>
+                        <div class="row2">
+                            <div class="column">
+                                <img class="pimages" src="Assets/Images/lake.jpg">
+                                <button type="button" class="btn btn-primary">Primary</button>
+                            </div>
+                            <br>
+                            <div class="column2">
+                                <img class="pimages" src="Assets/Images/camping.jpg">
+                                <button type="button" class="btn btn-primary">Primary</button>
+                            </div>
                         </div>
-
-
+                        
+        
+        
                     </div>
-    
-    
                 </div>
+            
             </main>
             <footer>
-                <p class="copyright">copyright</p>
-                <p id="bar"></p>
+                <nav class="navbar fixed-bottom navbar-dark bg-primary">
+                    <a class="navbar-brand" href="#!">Copyright</a>
+                    <!-- <p class="footer">Copyright</p> -->
+                  </nav>
             </footer>
         </div>
 
