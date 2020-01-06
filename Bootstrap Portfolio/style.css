@@ -2,7 +2,7 @@ body{
     border-style: solid;
     border-color: #007BFF;
     border-width: 10px;
-    background-color: white;
+    background-image: URL("https://www.publicdomainpictures.net/pictures/310000/nahled/log-wall-exterior.jpg")
 }
 
 
@@ -139,13 +139,16 @@ h5{
 
   .contactP{
     position: relative;
-    background-color: lightgray;
+    background-image: URL("https://i.pinimg.com/originals/46/0d/0f/460d0f3758b465a3f3ff1b2af0a2c6ba.jpg");
     margin-top: 50px;
     margin-left: 0px;
     margin-bottom: 20%;
     width: 100%;
     height: 100%;
     padding: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
 }
 
 button{
