@@ -135,6 +135,12 @@ h5{
   h2{
       margin-bottom: 40px;
       color: #007BFF;
+      border-style: solid;
+      border-bottom-width: 2px;
+      border-top-width: 0px;
+      border-right-width: 0px;
+      border-left-width: 0px;
+      border-color: lightgray;
   }
 
   .contactP{
@@ -169,4 +175,9 @@ button{
     position: relative;
     width: 75%;
     margin-bottom: 20px;
+}
+
+.buttons{
+    color: white;
+
 }
